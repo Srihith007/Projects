@@ -1,0 +1,44 @@
+<style>
+    .head{
+        margin-top: 30px;
+     color: blue;
+    }
+    
+</style>
+<h1 class="head">Forms : Personal Details</h1>
+<form id="forms">
+   Name : <input type="text" placeholder="Name" ><br><br>
+   Roll No : <input type="text" placeholder="Roll"><br><br>
+   <label for="Class">Branch:</label>
+<select id="Class" name="Class">
+    <option value="CSE">CSE</option>
+    <option value="CSM">CSM</option>
+    <option value="CSDS">CSDS</option>
+    <option value="CSBS">CSBS</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+    <option value="MECH">MECH</option>
+    <option value="CIVIL"></option>
+</select>
+    <label for="Sec">Section : </label>
+<select id="Sec" name="Section">
+    <option value="A">A</option>
+    <option value="B">B</option> 
+    <option value="C">C</option>
+    <option value="D">D</option>
+    <option value="E">E</option>
+    <option value="F">F</option>
+    <option value="G">G</option>
+    <option value="H">H</option>
+    <option value="I">I</option>
+    <option value="J">J</option>
+</select><br><br>
+    DOB : <input type="date" ><br> <br>
+    Address : <br><textarea  placeholder="Address"></textarea><br><br>
+    Pincode : <input type="text" placeholder="50xxxxx"><br><br>
+    Email id : <input type="email" placeholder="Emailxxx@gmail.com"><br><br>
+    Phone Number : <input type="text" placeholder="91xxxxxxxxxx"><br><br>
+    Issues if any : <br><textarea placeholder="Please write here"></textarea><br><br>
+    <button class= "btn" type="submit" form="forms" >Submit</button>
+    <button type="reset" form="forms">Reset</button>
+</form>
